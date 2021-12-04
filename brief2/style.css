@@ -1,0 +1,31 @@
+.logo{
+    padding: 30px;
+}
+.w{
+    margin-left: 10px;
+}
+
+
+
+ul {
+     list-style-type: none;
+     display: flex;
+   }
+li {
+     margin-left: 15px;
+     margin: 10px 20px;
+}   
+.divone {
+    display: flex;
+    align-items: center;
+}
+a {
+text-decoration: none;
+color: black;
+}
+img {
+    width: 200px;
+}
+h1{
+padding: 30px;
+}
