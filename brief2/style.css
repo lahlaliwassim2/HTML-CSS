@@ -10,19 +10,33 @@
     margin-left: -56px;
 }
 
-
-
-
 ul  {
+  
   list-style-type: none;
   display: inline;
   display: flex;
     }
 
+a:hover{
+  color: aqua;
+  text-decoration: underline;
+} 
+
 
 a   {
+  
+  display: flex;
+  display: inline;
   text-decoration: none;
+  text-align: center;
+
   color: black;
+    }
+  .collA{
+    color: blueviolet;
+  }
+    mark{
+      color: blue;
     }  
 
 li  {
@@ -47,6 +61,7 @@ img   {
 .divpere {
     display: flex;
     padding: 35px;
+    justify-content: space-between;
          }
 .rrp {
 color: black;
@@ -60,3 +75,10 @@ opacity: 0.8;
 .price  {
 text-decoration: underline;
         }
+.basdupage{
+          display: flex;
+          flex-direction: row;
+          
+          justify-content: space-between;
+        }
+   
