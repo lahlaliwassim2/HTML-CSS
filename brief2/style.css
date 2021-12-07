@@ -1,23 +1,23 @@
-.logo{
+.logo{     /* */
     display: flex;
     padding: 00px;
 }
-.divone{
+.divone{ /* */
   display: flex;
 }
-.w{
+.w{ /* */
     display: flex;
     margin-left: -56px;
 }
 
-ul  {
+ul  { /* */
   
   list-style-type: none;
   display: inline;
   display: flex;
     }
 
-a:hover{
+a:hover{ /* */
   color: aqua;
   text-decoration: underline;
 } 
@@ -62,6 +62,7 @@ img   {
     display: flex;
     padding: 35px;
     justify-content: space-between;
+    flex-wrap: wrap;
          }
 .rrp {
 color: black;
@@ -78,7 +79,35 @@ text-decoration: underline;
 .basdupage{
           display: flex;
           flex-direction: row;
-          
+          align-items: center;
           justify-content: space-between;
+          
         }
-   
+        @media( max-width : 600px){
+          .divpere {
+          flex-direction: column;
+  
+                 }
+                 .logo{
+                justify-content: center;
+                  padding: 00px;
+
+        }
+        
+        .divone{
+         
+          flex-direction: column;
+        }
+        .divone img{
+          margin: 0 auto;
+        }
+        .w{
+          margin: 0;
+          padding: 0;
+          flex-direction: row;
+
+        }
+        .divone ul li{
+          padding: 0;
+        }
+      } 
