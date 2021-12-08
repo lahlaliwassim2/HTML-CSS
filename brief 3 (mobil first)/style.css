@@ -2,8 +2,9 @@
     display: flex;
     padding: 20px;
     justify-content: center;
-   
-
+}
+#bo{
+  background-color: yellow;
 }
 img{
     width: 100%;
@@ -107,15 +108,36 @@ text-decoration: underline;
           
         }
         .divone img{
-            margin: 0 auto;}
-              .divone ul li{
-                padding: 0;}
+          margin: 0;}
+            .divone ul li{
+              padding: 0;}
+/**********************************************/   
 @media(min-width:800px){
+.logo{
+    padding: 10px;
+    width: 300px;
+    margin: 05px;
+  }
+.divone{
+  display: flex;
+flex-direction: row;
+padding-left: 1px;
+
+  }
+  img{
+    width: 100%;
+  }
+ .s{
+   padding-left: -400px;
+ }
     
-    .logo{
-        
-       display: flex;
-
+ .divpere {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex-direction: row;
 }
-
-}
+        }
