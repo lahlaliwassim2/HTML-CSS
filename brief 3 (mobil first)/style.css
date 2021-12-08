@@ -1,6 +1,6 @@
 .logo{     /* */
     display: flex;
-    padding: 20px;
+    /* padding: -18px; */
     justify-content: center;
 }
 #bo{
@@ -16,9 +16,7 @@ img{
 }
 .w{ /* */
     display: flex;
-    margin-left: -56px;
-    margin: 0;
-    padding: 00px;
+    /* margin-left: -56px; */
     flex-direction: inherit;
 }
 
@@ -33,7 +31,9 @@ a:hover{ /* */
   color: aqua;
   text-decoration: underline;
 } 
-
+li {
+  margin: 10px;
+}
 
 a   {
   
@@ -52,8 +52,8 @@ a   {
     }  
 
 li  {
-margin-left: 25px;
-margin: 10px 20px;
+/* margin-left: 25px;
+margin: 10px 20px; */
     }
 
 .div1 {
@@ -67,10 +67,11 @@ img   {
 .divkid {
   border: 2px solid black;
   padding: 00px;
-  margin: 07px;
-  
+  margin: -7px;
+  width: 100%;
         }
 .divpere {
+  width: 100%;
     display: flex;
     flex-direction: column;
     padding: 00px;
@@ -79,9 +80,9 @@ img   {
     flex-wrap: wrap;
     
          }
-.divkid{
+/* .divkid{
   width: 100%;
-}
+} */
 .s {
     padding-left: 20px;
      justify-content: center;
@@ -91,7 +92,7 @@ color: black;
 opacity: 0.6;
      }
 .Saving {
-color: green;
+color: rgb(9, 43, 9);
 opacity: 0.8;
 
         }
@@ -130,8 +131,12 @@ padding-left: 1px;
  .s{
    padding-left: -400px;
  }
-    
+ li  {
+  margin-left: 25px;
+  margin: 10px 20px;
+      }
  .divpere {
+  width: 100%;
   display: flex;
   padding: 10px;
   margin: auto;
@@ -141,3 +146,9 @@ padding-left: 1px;
   flex-direction: row;
 }
         }
+.basdupage{
+padding-left: opx;
+margin: auto;
+}
+
+}
