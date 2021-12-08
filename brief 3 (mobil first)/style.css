@@ -1,13 +1,24 @@
 .logo{     /* */
     display: flex;
-    padding: 00px;
+    padding: 20px;
+    justify-content: center;
+   
+
+}
+img{
+    width: 100%;
 }
 .divone{ /* */
-  display: flex;
+    
+    flex-direction: column;
+
 }
 .w{ /* */
     display: flex;
     margin-left: -56px;
+    margin: 0;
+    padding: 00px;
+    flex-direction: inherit;
 }
 
 ul  { /* */
@@ -50,20 +61,30 @@ margin: 10px 20px;
       }
 
 img   {
-  width: 140px;
+  width: 100%;
       }
 .divkid {
   border: 2px solid black;
-  padding: 20px;
-  margin: 10px;
+  padding: 00px;
+  margin: 07px;
   
         }
 .divpere {
     display: flex;
-    padding: 35px;
+    flex-direction: column;
+    padding: 00px;
+    margin: 00px;
     justify-content: space-between;
     flex-wrap: wrap;
+    
          }
+.divkid{
+  width: 100%;
+}
+.s {
+    padding-left: 20px;
+     justify-content: center;
+      }
 .rrp {
 color: black;
 opacity: 0.6;
@@ -76,6 +97,8 @@ opacity: 0.8;
 .price  {
 text-decoration: underline;
         }
+ 
+      
 .basdupage{
           display: flex;
           flex-direction: row;
@@ -83,31 +106,16 @@ text-decoration: underline;
           justify-content: space-between;
           
         }
-        @media( max-width : 600px){
-          .divpere {
-          flex-direction: column;
-  
-                 }
-                 .logo{
-                justify-content: center;
-                  padding: 00px;
-
-        }
-        
-        .divone{
-         
-          flex-direction: column;
-        }
         .divone img{
-          margin: 0 auto;
-        }
-        .w{
-          margin: 0;
-          padding: 0;
-          flex-direction: row;
+            margin: 0 auto;}
+              .divone ul li{
+                padding: 0;}
+@media(min-width:800px){
+    
+    .logo{
+        
+       display: flex;
 
-        }
-        .divone ul li{
-          padding: 0;
-        }
-      } 
+}
+
+}
