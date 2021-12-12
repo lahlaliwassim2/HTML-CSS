@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Agence</title>
 </head>
-<body>
+<main>
+    <body>
     <header>
         <nav class="title">
-            <p class="title2" >agence imobilier</p>
+            <h1 class="title2" >agence imobilier</h1>
         </nav>
     </header>
     <form class="container">
         <!-- premier etape-->
+        <div class="droite">
         <div class="part1">
         <label for="typpe">Zone de rech </label>
             <select name="test" id="test">
@@ -33,15 +35,17 @@
             <input type="number" placeholder="prix min">
             <input type="number" placeholder="prix max">
         </div>
+        </div>
+        <div class="gauche">
         <div class="part3">
             <label for="type">Nombres de chambre
             </label>
             <select name="test" id="test">
                 <option value="room1">1 chambre</option>
-                <option value="room3">2 chambre</option>
-                <option value="room2">3 chambre</option>
-                <option value="room4">4 chambre</option>
-                <option value="room5">5 chambre</option>
+                <option value="room3">2 chambres</option>
+                <option value="room2">3 chambres</option>
+                <option value="room4">4 chambres</option>
+                <option value="room5">5 chambres</option>
             </select>
         </div>
         <div class="part4">
@@ -53,15 +57,18 @@
                 <option value="semi">semi villa</option>
             </select>
         </div>
+    </div>
         <div class="part5">
             <input type="checkbox" name="" id="">
-            <label for="tes">maison vendue</label>
+            <label for="tes">confirmer votre choix</label>
             
         </div>
+        
         <button>search</button>
     </form>
     <footer>
         
     </footer>
 </body>
+</main>
 </html>

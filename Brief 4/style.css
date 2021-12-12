@@ -71,25 +71,41 @@ label{
 }
 @media (min-width: 600px) {
     body{
-        background-image: url(media/malmal.webp) ;
+        background-image: url(media/unnamed.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         color: rgb(1, 1, 22);
     }
-    .container{
-        margin-top: 10px;
-    
 
+
+.gauche{
+    
+        margin-left: 483px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    
+}
+.part5{
+    margin-left: 300px;
 }
 
 
-
-
-.container{
+.container {
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 70px;
+    align-items: flex-start;
+    margin-left: 270px;
+}
+button{
+    margin-top: 50px;
+    width: 104px;
+    
+
+}
 }
